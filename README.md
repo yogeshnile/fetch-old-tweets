@@ -6,6 +6,30 @@
  
 [![](https://camo.githubusercontent.com/2fb0723ef80f8d87a51218680e209c66f213edf8/68747470733a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f6d6164652d776974682d707974686f6e2e737667)](https://python.org)
 
+# How to use it? :thinking:
+In python file you put below three information.
+ - Enter twitter handle as you want in user_name section.
+ - Enter Starting date of you want fetch.
+ - Enter Endinf date of you want fetch.
+```python
+user_name = "elonmusk"  #put twitter user id without @
+start_date = "2016-01-01" #yy-mm-dd
+end_date = "2016-12-31" #yy-mm-dd
+```
+ - Run python programme.
+
+# Directory Tree :cactus:
+```bash
+.
+├── Example
+│   ├── narendramodi 2016-01-01 to 2016-12-31 tweets.csv
+│   └── realDonaldTrump 2016-01-01 to 2016-12-31 tweets.csv
+├── LICENSE
+├── README.md
+└── user-old-tweets.py
+
+1 directory, 5 files
+```
 
 ## Bug / Feature Request :man_technologist:
 If you find a bug (the application couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/yogeshnile/fetch-old-tweets/issues/new) by including your search query and the expected result.
