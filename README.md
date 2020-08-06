@@ -10,7 +10,7 @@
 In python file you put below three information.
  - Enter twitter handle as you want in user_name section.
  - Enter Starting date of you want fetch.
- - Enter Endinf date of you want fetch.
+ - Enter Ending date of you want fetch.
 ```python
 user_name = "elonmusk"  #put twitter user id without @
 start_date = "2016-01-01" #yy-mm-dd
